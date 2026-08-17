@@ -46,7 +46,7 @@ function App() {
     return (
       <main className="auth-page">
         <section className="auth-card">
-          <h1>JLG Admin</h1>
+          <h1>jlg Admin</h1>
           <p>Signed in as {user.email}</p>
           <button type="button" onClick={handleLogout}>
             Sign out

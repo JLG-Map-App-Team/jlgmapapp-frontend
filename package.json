@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vite preview --open",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview --open"
   },
   "dependencies": {
     "firebase": "^12.17.1",

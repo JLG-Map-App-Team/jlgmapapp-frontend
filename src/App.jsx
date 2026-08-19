@@ -59,7 +59,7 @@ function App() {
   return (
     <main className="auth-page">
       <form className="auth-card" onSubmit={handleLogin}>
-        <h1>JLG Admin Login</h1>
+        <h1>joe louis greenway Admin Login</h1>
 
         <label htmlFor="email">Email</label>
         <input
